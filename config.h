@@ -36,9 +36,10 @@ static const char worddelimiters[] = " ";
  */
 ResourcePref resources[] = {
 	{ "font",        STRING, &font },
-	{ "normfgcolor", STRING, &normfgcolor },
-	{ "normbgcolor", STRING, &normbgcolor },
-	{ "selfgcolor",  STRING, &selfgcolor },
-	{ "selbgcolor",  STRING, &selbgcolor },
+        { "color4",       STRING, &normfgcolor },
+        { "color0",      STRING, &normbgcolor },
+        { "color0",      STRING, &selfgcolor },
+        { "color4",      STRING, &selbgcolor },
 	{ "prompt",      STRING, &prompt },
 };
+
